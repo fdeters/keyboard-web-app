@@ -1,0 +1,52 @@
+body {
+    background-color: #ffdd93;
+}
+
+.container {
+    margin: 10% auto;
+    width: 490px;
+}
+
+kbd {
+    font-family: 'Roboto', sans-serif;
+}
+
+.white-keys kbd {
+    background-color: white;
+    border: 2px solid #7e7474;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    width: 65px;
+    height: 200px;
+    margin-left: -1%;
+    text-align: center;
+    line-height: 320px;
+}
+
+.black-keys kbd {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    position: relative;
+    top: -203px;
+    left: 43px;
+    z-index: 2;
+    width: 40px;
+    height: 120px;
+    margin-right: 26px;
+    text-align: center;
+    line-height: 180px;
+}
+
+#T-key{
+    left: 108px;
+}
+
+#Y-key{
+    left: 106px;
+}
+
+#U-key{
+    left: 104px;
+}
